@@ -1,6 +1,8 @@
 # CheapLNURLPoS
 $8 version of the <a href="https://github.com/arcbtc/LNURLPoS">LNURLPoS</a> 
 
+1.8 128/160 TFT PIN MAP: [VCC - 5V, GND - GND, CS - GPIO5, Reset - GPIO16, AO (DC) - GPI17, SDA (MOSI) - GPIO23, SCK - GPIO18, LED - 3.3V]
+
  # Hardware: (USE THE TFT_eSPI LIBRARY IN THIS FOLDER FOR THE CORRECT DRIVERS!!!)
 * ESP32 NODE32S
 * 1.8 TFT 160/128
