@@ -1,3 +1,9 @@
+/**
+ *  PIN MAP for ESP32 NODEMCU-32S, other ESP32 dev boards will vary
+ *  Keypad (12-32
+ *  1.8 128/160 TFT PIN MAP: [VCC - 5V, GND - GND, CS - GPIO5, Reset - GPIO16, AO (DC) - GPI17, SDA (MOSI) - GPIO23, SCK - GPIO18, LED - 3.3V]
+ */
+ 
 
 #include "SPI.h"
 //#include "TFT_eSPI.h"
