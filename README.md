@@ -7,11 +7,11 @@ $8 version of the <a href="https://github.com/arcbtc/LNURLPoS">LNURLPoS</a>
 * 4x4 adhesive matrix keypad
 * x8 female-female jumper cables
 
-[![ESP32 GPIO Map](https://i.imgur.com/PLP3YBG.jpg)]
+![ESP32 GPIO Map](https://i.imgur.com/PLP3YBG.jpg)
 
 * ESP32 DevKit V1
 
-[![ESP32s GPIO Map](https://i.imgur.com/iK3pCjt.jpg)]
+![ESP32s GPIO Map](https://i.imgur.com/iK3pCjt.jpg)
 
 
 # Installing arduino + libraries
