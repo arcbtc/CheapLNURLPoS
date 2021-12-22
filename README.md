@@ -3,6 +3,8 @@
 # CheapLNURLPoS
 ## $8 version of the <a href="https://github.com/arcbtc/LNURLPoS">LNURLPoS</a>
 
+> <i>Join our <a href="https://t.me/makerbits">telegram support/chat</a>.</i>
+
 <img style="width:500px" src="https://user-images.githubusercontent.com/33088785/145500962-7e2bb6c2-ee64-446f-adad-d6fbd780e259.JPG">
 
 1.8 128/160 TFT PIN MAP: 
