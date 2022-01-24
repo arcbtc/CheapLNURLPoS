@@ -9,7 +9,7 @@
 //#include "TFT_eSPI.h"
 #include <Keypad.h>
 #include <string.h>
-#include "qrcode.h"
+#include "qrcoded.h"
 #include "Bitcoin.h"
 #include <Base64.h>
 #include <Hash.h>
@@ -160,14 +160,14 @@ void qrShowCode(){
   tft.fillScreen(TFT_WHITE);
   lnurl.toUpperCase();
   const char* lnurlChar = lnurl.c_str();
-  QRCode qrcode;
+  QRCode qrcoded;
   uint8_t qrcodeData[qrcode_getBufferSize(20)];
-  qrcode_initText(&qrcode, qrcodeData, 6, 0, lnurlChar);
-    for (uint8_t y = 0; y < qrcode.size; y++) {
+  qrcode_initText(&qrcoded, qrcodeData, 6, 0, lnurlChar);
+    for (uint8_t y = 0; y < qrcoded.size; y++) {
 
         // Each horizontal module
-        for (uint8_t x = 0; x < qrcode.size; x++) {
-            if(qrcode_getModule(&qrcode, x, y)){       
+        for (uint8_t x = 0; x < qrcoded.size; x++) {
+            if(qrcode_getModule(&qrcoded, x, y)){       
                 tft.fillRect(18+3*x, 1+3*y, 3, 3, TFT_BLACK);
             }
             else{
